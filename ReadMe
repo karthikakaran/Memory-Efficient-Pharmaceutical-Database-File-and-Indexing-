@@ -1,0 +1,37 @@
+Language: JAVA
+Version:  java version: "1.7.0_91"
+	  OpenJDK Runtime Environment -> JRE version:(IcedTea 2.6.3)
+IDE Used: Eclipse
+Compile and Run: Directly execute from IDE using "Run" button after loading the project folder in Workspace
+
+Running instructions: 1. First always IMPORT the file to process on that
+			 >Enter file name:
+                         PHARMA_TRIALS_1000B.csv (THE FILE MUST BE PLACED INSIDE THE PROJECT FOLDER FIRST BEFORE LOADING)
+
+		      2. QUERY: Enter either * (or) fieldnames seperated by commas and no spaces like(id,company,trials,reading)
+			       Enter WHERE field name, operation, NOT(y/n), values
+
+		      3. INSERT:
+			 a)Enclose string values with "'" for INSERT query
+		      	 b) No spaces between "fields" and "commas" for ALL queries
+		         c) End with semi-colon(;) always
+			>Enter the insert query: 
+			>insert into table PHARMA_TRIALS_1000B values
+			Example: (111,'INC.','DY-994',66,1988,93,84.5,false,true,true,true); => add after 'values'
+				Like insert into table PHARMA_TRIALS_1000B values(111,'INC.','DY-994',66,1988,93,84.5,false,true,true,true);
+
+		      4. DELETE:
+			 > delete from PHARMA_TRIALS_1000B where 
+			 >Enter Field Name: 
+                         Enter field name for instance: (reading)
+			 >Enter Operation < or > or <= or >= or = : 
+			 example: (=)
+			 >Enter Value: 
+			  example: (916)
+			 >Do you want to perform NOT operation y/n:
+			  example:(n/y)
+
+		      
+
+
+
